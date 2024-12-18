@@ -26,9 +26,7 @@ To use this tool, you need the following installed:
 
     Ensure that your wireless adapter supports monitor mode and is compatible with the Aircrack-ng suite.
 
-Setup Instructions:
-
-    Install Dependencies (Aircrack-ng, Python3, and Tkinter)
+Setup Instructions. Install the Dependencies (Aircrack-ng, Python3, and Tkinter):
 
 On Ubuntu/Debian-based systems, run the following commands:
 
