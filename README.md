@@ -1,4 +1,6 @@
-WiFi Network Scanner and Deauthenticator
+WiFi Network Scanner and Deauthenticator for 2.4GHZ and 5GHZ
+
+it should be able to deauther 2.4 and 5 ghz Networks.
 
 THIS SCRIPT REQUIRES ROOT/SUDO
 
