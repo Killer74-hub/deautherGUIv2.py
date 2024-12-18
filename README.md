@@ -16,15 +16,15 @@ Requirements:
 
 To use this tool, you need the following installed:
 
-Python 3.x
+    Python 3.x
 
-airodump-ng, aireplay-ng (part of the Aircrack-ng suite)
+    airodump-ng, aireplay-ng (part of the Aircrack-ng suite)
 
-tkinter (for the GUI)
+    tkinter (for the GUI)
 
-iw (for channel switching)
+    iw (for channel switching)
 
-Ensure that your wireless adapter supports monitor mode and is compatible with the Aircrack-ng suite.
+    Ensure that your wireless adapter supports monitor mode and is compatible with the Aircrack-ng suite.
 
 Setup Instructions:
 
@@ -32,30 +32,32 @@ Setup Instructions:
 
 On Ubuntu/Debian-based systems, run the following commands:
 
-sudo apt update
-sudo apt install aircrack-ng python3 python3-tk iw
+    sudo apt update
+    sudo apt install aircrack-ng python3 python3-tk iw
 
-    Clone the Repository:
+Clone the Repository:
 
-git clone https://github.com/Killer74-hub/deautherGUIv2.py/
-cd deautherGUIv2
+    git clone https://github.com/Killer74-hub/deautherGUIv2.py/
+    cd deautherGUIv2
 
-    Put Your Device Into Monitor Mode:
+Put Your Device Into Monitor Mode:
 
-sudo airmon-ng check kill
-sudo airmon-ng start (DEVICE)
+    sudo airmon-ng check kill
+    sudo airmon-ng start (DEVICE)
 
-    Run the Script:
+Run the Script:
 
-sudo python3 script.py
+    sudo python3 script.py
 
 Note: Make sure to run the script with sudo as it requires elevated privileges to interact with the wireless interface and use tools like airodump-ng and aireplay-ng.
 
 After the scan, disable monitor mode:
 
-sudo airmon-ng stop (DEVICE)
-Start the NetworkManager:
-sudo systemctl start NetworkManager
+    sudo airmon-ng stop (DEVICE)
+    
+And Start the NetworkManager:
+
+    sudo systemctl start NetworkManager
 
 Usage:
 
@@ -76,7 +78,7 @@ Stop Deauth Button: The "Stop Deauth" button does not fully stop the deauthentic
 
 License:
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+No License. This Project is Opensource and can be edited by anyone. I would appreciate help.
 
 Disclaimer:
 
